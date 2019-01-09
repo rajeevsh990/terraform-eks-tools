@@ -8,11 +8,11 @@ RUN tar -zxvf helm-linux-amd64.tar.gz && \
     mv linux-amd64/helm /usr/local/bin/helm
 
 # Kubectl for AWS EKS
-ADD https://amazon-eks.s3-us-west-2.amazonaws.com/1.11.5/2018-12-06/bin/linux/amd64/kubectl /usr/local/bin/kubectl
+ADD https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/linux/amd64/kubectl /usr/local/bin/kubectl
 RUN chmod +x /usr/local/bin/kubectl
 
 # AWS IAM Authenticator.
-ADD https://amazon-eks.s3-us-west-2.amazonaws.com/1.11.5/2018-12-06/bin/linux/amd64/aws-iam-authenticator /usr/local/bin/aws-iam-authenticator
+ADD https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/linux/amd64/aws-iam-authenticator /usr/local/bin/aws-iam-authenticator
 RUN chmod +x /usr/local/bin/aws-iam-authenticator
 
 # Python 2.7 with pip
