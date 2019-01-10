@@ -37,4 +37,4 @@ Therefore it is recommended to use branches that are *bound* to fixed versions o
 - kubectl 1.10.3 with aws-iam-authenticator 1.10.3
 - Helm 2.11.0
 - Terraform 0.11.10
-
+ 
