@@ -10,10 +10,10 @@ Automated built docker images are provided at https://hub.docker.com/r/tgip/terr
 |Tool                   |Version        |Description                                                                               |
 |-----------------------|---------------|------------------------------------------------------------------------------------------|
 |helm                   |2.11.0         |Package manager for Kubernetes                                                            |
-|kubectl                |1.11.5         |Kubectl used to administrate the K8S cluster                                              |
-|aws-iam-authenticator  |1.11.5         |IAM authentication utility offers a secure proxy for authenticating kubectl to K8S cluster|
+|kubectl                |1.11.9         |Kubectl used to administrate the K8S cluster                                              |
+|aws-iam-authenticator  |1.11.9         |IAM authentication utility offers a secure proxy for authenticating kubectl to K8S cluster|
+|terraform              |0.12.0         |Terraform                                                                                 |
 |AWS CLI                |1.16.70        |AWS commandline tools for managing simple infrastructure tasks                            |
-|terraform              |0.11.11        |Commandline professional http(s) client tool                                              |
 |python                 |2.7.15-rc1-1   |Useful scripting language and also a common prerequisite for many other tools             |
 |pip                    |18.1           |Python package manager used to install many libraries and other tools i.e. aws-cli        |
 
