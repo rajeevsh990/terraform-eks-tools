@@ -46,6 +46,14 @@ Therefore it is recommended to use branches that are *bound* to fixed versions o
 - Helm 2.11.0
 - Terraform 0.11.13
 
+## Branch k8s1.11.9-helm2.11.0-tf0.11.10
+
+`docker pull tgip/terraform-eks-tools:k8s1.11.9-helm2.11.0-tf0.11.10`
+
+- kubectl 1.11.9 with aws-iam-authenticator 1.11.9
+- Helm 2.11.0
+- Terraform 0.11.10
+
 ## Branch k8s1.11.5-helm2.11.0-tf0.11.13
 
 `docker pull tgip/terraform-eks-tools:k8s1.11.5-helm2.11.0-tf0.11.13`
