@@ -22,6 +22,14 @@ Automated built docker images are provided at https://hub.docker.com/r/tgip/terr
 Master branch may not be stable all the time due to ongoing development activitites.
 Therefore it is recommended to use branches that are *bound* to fixed versions of the tools.
 
+## Branch k8s1.11.9-helm2.11.0-tf0.12.0
+
+`docker pull tgip/terraform-eks-tools:k8s1.11.9-helm2.11.0-tf0.12.0`
+
+- kubectl 1.11.9 with aws-iam-authenticator 1.11.9
+- Helm 2.11.0
+- Terraform 0.12.0
+
 ## Branch k8s1.11.9-helm2.11.0-tf0.11.14
 
 `docker pull tgip/terraform-eks-tools:k8s1.11.9-helm2.11.0-tf0.11.14`
