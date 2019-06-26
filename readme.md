@@ -10,8 +10,8 @@ Automated built docker images are provided at https://hub.docker.com/r/tgip/terr
 |Tool                   |Version        |Description                                                                               |
 |-----------------------|---------------|------------------------------------------------------------------------------------------|
 |helm                   |2.11.0         |Package manager for Kubernetes                                                            |
-|kubectl                |1.11.5         |Kubectl used to administrate the K8S cluster                                              |
-|aws-iam-authenticator  |1.11.5         |IAM authentication utility offers a secure proxy for authenticating kubectl to K8S cluster|
+|kubectl                |1.11.9         |Kubectl used to administrate the K8S cluster                                              |
+|aws-iam-authenticator  |1.11.9         |IAM authentication utility offers a secure proxy for authenticating kubectl to K8S cluster|
 |AWS CLI                |1.16.70        |AWS commandline tools for managing simple infrastructure tasks                            |
 |terraform              |0.11.11        |Commandline professional http(s) client tool                                              |
 |python                 |2.7.15-rc1-1   |Useful scripting language and also a common prerequisite for many other tools             |
@@ -21,6 +21,14 @@ Automated built docker images are provided at https://hub.docker.com/r/tgip/terr
 
 Master branch may not be stable all the time due to ongoing development activitites.
 Therefore it is recommended to use branches that are *bound* to fixed versions of the tools.
+
+## Branch k8s1.11.9-helm2.11.0-tf0.12.3
+
+`docker pull tgip/terraform-eks-tools:k8s1.11.9-helm2.11.0-tf0.12.3`
+
+- kubectl 1.11.9 with aws-iam-authenticator 1.11.9
+- Helm 2.11.0
+- Terraform 0.12.3
 
 ## Branch k8s1.11.9-helm2.11.0-tf0.12.0
 
