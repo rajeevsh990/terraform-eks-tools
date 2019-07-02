@@ -18,7 +18,8 @@ RUN chmod +x /usr/local/bin/aws-iam-authenticator
 # Python 2.7 with pip
 RUN apt-get update && apt-get install -y \
         python-pip \
-        unzip
+        unzip \
+        git
 
 # AWS CLI
 RUN pip install awscli==${AWS_CLI_VERSION}
