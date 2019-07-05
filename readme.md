@@ -16,6 +16,7 @@ Automated built docker images are provided at https://hub.docker.com/r/tgip/terr
 |terraform              |0.11.10        |Commandline professional http(s) client tool                                              |
 |python                 |2.7.15-rc1-1   |Useful scripting language and also a common prerequisite for many other tools             |
 |pip                    |18.1           |Python package manager used to install many libraries and other tools i.e. aws-cli        |
+|git                    |               |Git client                                                                                |
 
 # Branches
 
