@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install awscli==${AWS_CLI_VERSION}
 
 # Terraform
-ADD https://releases.hashicorp.com/terraform/0.11.10/terraform_0.11.10_linux_amd64.zip terraform.zip
+ADD https://releases.hashicorp.com/terraform/0.12.3/terraform_0.12.3_linux_amd64.zip terraform.zip
 RUN unzip terraform.zip && \
     mv ./terraform /usr/local/bin && \
     chmod +x /usr/local/bin/terraform
