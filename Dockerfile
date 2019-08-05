@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ENV AWS_CLI_VERSION 1.16.70
+ENV AWS_CLI_VERSION 1.16.210
 
 # Helm 2.11.0
 ADD https://storage.googleapis.com/kubernetes-helm/helm-v2.11.0-linux-amd64.tar.gz helm-linux-amd64.tar.gz
@@ -25,7 +25,7 @@ RUN apt-get update && apt-get install -y \
 RUN pip install awscli==${AWS_CLI_VERSION}
 
 # Terraform
-ADD https://releases.hashicorp.com/terraform/0.12.3/terraform_0.12.3_linux_amd64.zip terraform.zip
+ADD https://releases.hashicorp.com/terraform/0.12.6/terraform_0.12.6_linux_amd64.zip terraform.zip
 RUN unzip terraform.zip && \
     mv ./terraform /usr/local/bin && \
     chmod +x /usr/local/bin/terraform
