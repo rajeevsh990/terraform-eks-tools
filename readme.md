@@ -18,6 +18,7 @@ Automated built docker images are provided at https://hub.docker.com/r/tgip/terr
 |pip                    |18.1           |Python package manager used to install many libraries and other tools i.e. aws-cli        |
 |git                    |               |Git                                                                                       |
 |curl                   |               |**Curl is only installed in all branches starting from k8s1.13.7 on**                     |
+|openjdk-11-jre         |               |OpenJDK 11 Runtime - **only installed if tag includes `-jre11`**                          |
 
 # Branches
 
