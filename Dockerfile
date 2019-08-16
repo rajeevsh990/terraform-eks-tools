@@ -20,7 +20,8 @@ RUN apt-get update && apt-get install -y \
         python-pip \
         unzip \
         git \
-        curl
+        curl \
+        openjdk-11-jre
 
 # AWS CLI
 RUN pip install awscli==${AWS_CLI_VERSION}
