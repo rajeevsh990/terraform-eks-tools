@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.04 
 
 ENV AWS_CLI_VERSION 1.16.210
 
