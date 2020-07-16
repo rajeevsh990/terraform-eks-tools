@@ -7,6 +7,11 @@ ADD https://storage.googleapis.com/kubernetes-helm/helm-v2.11.0-linux-amd64.tar.
 RUN tar -zxvf helm-linux-amd64.tar.gz && \
     mv linux-amd64/helm /usr/local/bin/helm
 
+# Helm 3.2.4
+ADD https://get.helm.sh/helm-v3.2.4-linux-amd64.tar.gz helm3-linux-amd64.tar.gz
+RUN tar -zxvf helm3-linux-amd64.tar.gz && \
+    mv linux-amd64/helm /usr/local/bin/helm3
+
 # Kubectl for AWS EKS
 ADD https://amazon-eks.s3.us-west-2.amazonaws.com/1.15.10/2020-02-22/bin/linux/amd64/kubectl /usr/local/bin/kubectl
 RUN chmod +x /usr/local/bin/kubectl
