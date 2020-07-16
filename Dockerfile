@@ -12,9 +12,6 @@ ADD https://get.helm.sh/helm-v3.2.4-linux-amd64.tar.gz helm3-linux-amd64.tar.gz
 RUN tar -zxvf helm3-linux-amd64.tar.gz && \
     mv linux-amd64/helm /usr/local/bin/helm3
 
-# Helm2to3 plugin - https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/
-RUN helm3 plugin install https://github.com/helm/helm-2to3
-
 # Kubectl for AWS EKS
 ADD https://amazon-eks.s3.us-west-2.amazonaws.com/1.15.10/2020-02-22/bin/linux/amd64/kubectl /usr/local/bin/kubectl
 RUN chmod +x /usr/local/bin/kubectl
@@ -29,6 +26,10 @@ RUN apt-get update && apt-get install -y \
         unzip \
         git \
         curl
+
+# Helm2to3 plugin - https://helm.sh/blog/migrate-from-helm-v2-to-helm-v3/
+# requires git
+RUN helm3 plugin install https://github.com/helm/helm-2to3
 
 # AWS CLI
 RUN pip install awscli==${AWS_CLI_VERSION}
