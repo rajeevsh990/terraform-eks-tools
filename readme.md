@@ -3,7 +3,7 @@
 # Helper Docker Image
 
 An Ubuntu based docker image that contains a combination of useful tools for setting up and maintaining a Kubernetes container platform on AWS EKS with terraform.
-Automated built docker images are provided at https://hub.docker.com/r/tgip/terraform-eks-tools/
+Automated built docker images are provided at https://hub.docker.com/r/rajeevsh/terraform-eks-tools/
 
 # Tools 
 
