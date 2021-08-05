@@ -18,6 +18,13 @@ Automated built docker images are provided at https://hub.docker.com/r/rajeevsh/
 |pip                    |2              |Python package manager used to install many libraries and other tools i.e. aws-cli        |
 |git                    |               |Git client                                                                                |
 
+# Version compatibility documents
+
+HELM:      https://helm.sh/docs/topics/version_skew/
+IAM AUTH:  https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+AWS CLI:   https://github.com/aws/aws-cli/blob/develop/CHANGELOG.rst
+Terraform: https://github.com/hashicorp/terraform-provider-kubernetes/blob/main/CHANGELOG.md
+
 # Branches
 
 Master branch may not be stable all the time due to ongoing development activitites.
