@@ -35,6 +35,8 @@ Master branch may not be stable all the time due to ongoing development activiti
 Therefore it is recommended to use branches that are *bound* to fixed versions of the tools.
 ## Branch k8s1.17.12-helm3.5.4-tf1.0.2
 
+`docker pull rajeevsh/terraform-eks-tools:k8s1.17.12-helm3.5.4-tf1.0.2`
+
 - kubectl 1.17.12 with aws-iam-authenticator 1.11.9
 - Helm 3.5.4
 - Terraform 1.0.2
