@@ -21,9 +21,13 @@ Automated built docker images are provided at https://hub.docker.com/r/rajeevsh/
 # Version compatibility documents
 
 HELM:      https://helm.sh/docs/topics/version_skew/
+
 IAM AUTH:  https://docs.aws.amazon.com/eks/latest/userguide/install-aws-iam-authenticator.html
+
 AWS CLI:   https://github.com/aws/aws-cli/blob/develop/CHANGELOG.rst
+
 Terraform: https://github.com/hashicorp/terraform-provider-kubernetes/blob/main/CHANGELOG.md
+
 
 # Branches
 
